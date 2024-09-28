@@ -6,9 +6,8 @@ from graphs import bfs, dfs, ucs, greedy_bfs, a_star
 graph = {
     'A': [('B', 1), ('C', 4)],
     'B': [('D', 5), ('C', 2)],
-    'C': [('E', 3)],
+    'C': [('D', 1)],
     'D': [('F', 2)],
-    'E': [('F', 1)],
     'F': [('G', 3)],
     'G': []
 }
