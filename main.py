@@ -5,11 +5,11 @@ from graphs import bfs, dfs, ucs, greedy_bfs, a_star
 # Declare the graph as an adjacency list with edge weights
 graph = {
     'A': [('B', 1), ('C', 4)],
-    'B': [('A', 1), ('D', 5), ('C', 2)],
-    'C': [('A', 4), ('B', 2), ('E', 3)],
-    'D': [('B', 5), ('F', 2)],
-    'E': [('C', 3), ('F', 1)],
-    'F': [('D', 2), ('E', 1), ('G', 3)],
+    'B': [('D', 5), ('C', 2)],
+    'C': [('E', 3)],
+    'D': [('F', 2)],
+    'E': [('F', 1)],
+    'F': [('G', 3)],
     'G': []
 }
 
